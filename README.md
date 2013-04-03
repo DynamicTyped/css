@@ -117,7 +117,7 @@
   + Do not use single line rules
   + Break-up longer rules with line-breaks and comments
   + One indent for property/values inside a rule
-  + Give each property it's own line
+  + Give each property its own line
   + Do not use a space between property and : -- use a space between : and value (e.g. `background: #FF0000;`)
   + Sort property declarations by like properties in alphabetical order (aka not strict alphabetical)
   + Use spaces after commas
