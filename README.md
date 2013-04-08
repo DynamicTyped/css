@@ -90,6 +90,7 @@
   + Use standard class, id, html selectors where possible
   + Do not use overly specific selector hierarchy (e.g. `body .navigation#ul li .someText a:visited{`)
   + Avoid selecting items by attribute values
+  + When using a grid system, do not add styles to an element by gridsystem class name (unless you are modifying the behavior of the grid system item). Instead, create a more descriptive class name for the element.
   + When using attribute values, use single quotes `.class[href='somepage.html']`
   + Newline between comma separated selectors (no space after comma)
   + Opening brace should be on same line as selector (or last selector)	
